@@ -1,14 +1,20 @@
-# divbox
 
-A new Flutter package project.
+# divbox  
+  
+A flutter widget that provides margin and padding utilities.  
+Inspired by [ChakraUI styled props](https://vue.chakra-ui.com/style-props)  
+  
+## Getting Started  
+  
+Available arguments:  
 
-## Getting Started
+`child` => Type: `Widget`  **REQUIRED** 
+mx, my, px, py => Horizontal(X) and Vertical(Y) padding and margin => Type: `double`  
+ml, mt, mr, mb, pl, pt, pr, pb => Left, Top, Right, Bottom Margin and Padding => Type: `double`
+  
+Individual values takes higher precedence over axis value.  
+Axis values take higher precedence over overall value.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+*MORE COMING SOON*
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+See [example](./example)
