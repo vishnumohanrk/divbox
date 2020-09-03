@@ -1,7 +1,6 @@
 name: divbox
-description: A utility widget for padding and margins.
+description: A utility widget for padding and margin.
 version: 0.0.1
-author: Vishnumohan R K <mohanvish1999@gmail.com>
 homepage: https://github.com/vishnumohanrk/divbox
 
 environment:
