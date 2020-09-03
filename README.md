@@ -17,4 +17,23 @@ Axis values take higher precedence over overall value.
 
 ## Usage:
 
+```dart
+DivBox(
+  m: 45.0,
+  mr: 80.0,
+  mx: 1.0,
+  child: DivBox(
+    px: 12.0,
+    py: 24.0,
+    pt: 75.0,
+    child: Text(
+      'Dart',
+      style: TextStyle(
+        fontSize: 24.0,
+      ),
+    ),
+  ),
+);
+```
+
 See [example](./example)

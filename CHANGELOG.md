@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020-09-03
 
-* TODO: Describe initial release.
+* Initial Release 
+    - A widget providing utilities for margin and padding inspired by ChakraUI and TailwindCSS.
+
