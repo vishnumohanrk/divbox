@@ -14,8 +14,6 @@ Inspired by [ChakraUI styled props](https://vue.chakra-ui.com/style-props)
 Individual values takes higher precedence over axis value.  
 Axis values take higher precedence over overall value.
 
-*MORE COMING SOON*
-
 ## Usage:
 
 ```dart
