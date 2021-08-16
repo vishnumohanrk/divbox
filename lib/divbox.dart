@@ -3,13 +3,13 @@ library divbox;
 import 'package:flutter/material.dart';
 
 class DivBox extends StatelessWidget {
-  final double m, mx, my, mr, ml, mt, mb, p, px, py, pr, pl, pt, pb;
+  final double? m, mx, my, mr, ml, mt, mb, p, px, py, pr, pl, pt, pb;
 
   final Widget child;
-  final AlignmentGeometry align;
+  final AlignmentGeometry? align;
 
   DivBox({
-    @required this.child,
+    required this.child,
     this.align,
     this.m,
     this.mx,
@@ -28,13 +28,13 @@ class DivBox extends StatelessWidget {
   });
 
   EdgeInsetsGeometry getValues(
-      {double overall,
-      double xAxis,
-      double yAxis,
-      double left,
-      double right,
-      double top,
-      double bottom}) {
+      {double? overall,
+      double? xAxis,
+      double? yAxis,
+      double? left,
+      double? right,
+      double? top,
+      double? bottom}) {
     final leftValue = left ?? xAxis ?? overall ?? 0;
     final rightValue = right ?? xAxis ?? overall ?? 0;
     final topValue = top ?? yAxis ?? overall ?? 0;
